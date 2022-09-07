@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="createElements"> <!--Main element to create task with button-->
+  <input type="text" id="mainInput" class="noError">
+  <button id="btn-createTask">Add task</button>
+</div>
+<div class="divTaskList"> <!--To-do list-->
+    <div id="headerTaskList">Today`s tasks</div>
+    <div id="bodyTaskList">
+        <p class="congratulationItems congratulation">You don`t have a task!!!</p>
+    </div>
+</div>
+<div></div> <!--Days of month-->
+<div class="categories">
+    <div class="completedTaskList">
+        <p id="congratulationCompleted" class="congratulation">You don`t have completed tasks yet</p>
+    </div>
+    <div class="foldTaskList">
+        <p id="congratulationFailed"  class="congratulation">You don`t have failed tasks yet</p>
+    </div>
+
+</div> <!--Tasks in other categories-->
+<button id="testBtn">TRY TEST THIS TOOL!</button>
+<script src="main.js"></script>
+
+</body>
+</html>
